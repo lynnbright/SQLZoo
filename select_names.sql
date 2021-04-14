@@ -66,6 +66,3 @@ SELECT capital, name
 SELECT name, REPLACE(capital, name, '') AS 'extension'
   FROM world
   WHERE capital LIKE concat(name, '_%') AND LEN(capital) > LEN(name)
-
-
-
